@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>තුරු.com</title>
+	<link rel="stylesheet" href="css/contact.css">
+	<link rel="stylesheet" href="css/sign_up.css">
+	 <script src="https://kit.fontawesome.com/4f6c585cf2.js" crossorigin="anonymous"></script>
+
+</head>
+<body>
+
+	<nav>
+    <div class="column">
+      <ul>
+        <li><a href="index.html">HOME</a></li>
+        <li><a href="shop.html">SHOP</a></li>
+        <li><a href="concat.html">CONTACT</a></li>
+        <li><a href="aboutus.html">ABOUT US</a></li>
+      </ul>
+    </div><!--column-->
+    <div class="column">
+
+      <div class="logo">
+        <h2><span>තුරු</span>.com</h2>  
+      </div><!--logo-->
+
+    </div><!--column-->
+    <div class="column">
+      <div class="nav_list">
+        <ul>
+          <li><a href="sign_in.html">Sign In</a></li>
+          <li><a href="sign_up.html">Sign Up</a></li>
+          <li><a href="#"><i class="fas fa-shopping-cart"></i></a></li>
+        </ul>
+      </div><!--nav_list-->
+
+      <div class="search">
+        <input type="search" placeholder="Search Product...">
+        <button><i class="fas fa-search"></i></button>
+      </div>
+    </div><!--column-->
+
+  </nav>
+
+	<section class="signup_section">
+
+		<div class="signup_png">
+			<img src="img/sign_up.png">
+		</div>
+		<div class="signup_form">
+			<div class="sign_up_header">
+				<h2>Sign Up</h2>
+			</div><!--sign_in_header-->
+
+      <div class="error" id="error"></div><!--error-->
+
+			<form onsubmit="return sign_up_vali();">
+				<p>
+					<label for="">First Name:</label>
+					<input type="text" name = "first_name" id="first_name">
+				</p>
+				<p>
+					<label for="">Last Name:</label>
+					<input type="text" name = "last_name" id="last_name">
+				</p>
+				<p>
+					<label for="">User Name:</label>
+					<input type="text" name = "user_name" id="user_name">
+				</p>
+				<p>
+					<label for="">Email:</label>
+					<input type="email" name = "email" id="email">
+				</p>
+				<p>
+					<label for="">Password:</label>
+					<input type="password" name = "pw" id="pw">
+				</p>
+				<p>
+					<label for="">Confirm Password:</label>
+					<input type="password" name = "cpw" id="cpw">
+				</p>
+				<p>
+					<input type="submit" name = "but">
+				</p>
+        		<p>Already Have An Account? <a href="sign_in.html">Sign In </a>Here</p>
+
+			</form>		
+				
+		</div><!--login_form-->
+
+	</section>
+
+<footer>
+    <div class="footer_row1">
+      <div class="footer_sub_column">
+        <h2>Opening Time</h2>
+        <h3>Mon - Fir 8AM - 10PM</h3>
+        <h3>Sat 9AM - 8PM</h3>
+        <h3>Sun 10AM - 8PM</h3>
+
+        <h4>We Are Not Working At The Holidays.</h4>
+      </div>
+      <div class="footer_sub_column">
+        <div class="logo">
+          <h1>තුරු.com</h1>
+        </div>
+        <div class="social_list"> 
+          <ul>
+            <li><i class="fab fa-facebook-f"></i></li>
+            <li><i class="fab fa-twitter"></i></li>
+            <li><i class="fab fa-instagram"></i></li>
+            <li><i class="fab fa-youtube"></i></li> 
+          </ul>
+        </div>
+        <div class="dl_app">
+          <div class="app_content">
+            <i class="fab fa-google-play"></i>
+            <h5><a href="#">Download It From Google Play</a></h5>
+          </div>
+          <div class="app_content">
+            <i class="fab fa-apple"></i>
+            <h5><a href="#">Download It From Apple Store</a></h5>
+          </div>
+        </div>
+
+      </div>
+      <div class="footer_sub_column">
+        <h2>My Account</h2>
+        <h3><a href="aboutus.html">About Us</a></h3>
+        <h3><a href="concat.html">Contact</a></h3>
+        <h3><a href="shop.html">Shop</a></h3>
+        <h3><a href="sign_in.html">Sign in</a></h3>
+        <h3><a href="sign_up.html">Sign Up</a></h3>
+      </div>
+    </div><!--footer_row-->
+
+    <div class="small_footer">
+      <h3>© Copyright 2020 <span>Osada Manohara</span> All Rights Reserved</h3>
+    </div><!--small_footer-->
+    
+  </footer>
+	
+  <script src="js/sign_up_form_validation.js"></script>
+
+</body>
+</html>

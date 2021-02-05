@@ -1,0 +1,219 @@
+/*Some Products*/
+
+.some_products{
+	overflow: auto;
+}
+.some_products .our_products{
+	width: 90%;
+	padding: 25px 0;
+	background-color: #fff;
+	margin:20px auto;
+	overflow: auto;
+}
+.some_products .our_products .row2{
+	padding: 15px;
+	margin-top: 50px;
+	margin-bottom: 50px;
+	font-family: "Montserrat";
+	border: 1px solid #b3afaf; 
+	overflow: auto;
+}
+.some_products .our_products .row2 .shop_nav_column{
+	width: 395px;
+	float: left;
+	overflow: auto;
+	margin: 0 25px;
+}
+.some_products .our_products .row2 .shop_nav_column:nth-child(2){
+	text-align: center;
+}
+.some_products .our_products .row2 .shop_nav_column:last-child{
+	text-align: right;
+}
+.some_products .our_products .row2 .shop_nav_column select{
+	padding: 8px;
+	outline: none;
+	border-radius: 5px;
+	font-weight: bold;
+	box-sizing: border-box;
+	z-index: 100;
+}
+.some_products .our_products .row2 .shop_nav_column option{
+	font-size: 14px;
+	margin-bottom: 100px;
+	font-family: "Montserrat";
+}
+.some_products .our_products .row2 .shop_nav_column:last-child h3{
+	font-size: 13px;
+	line-height: 35px;
+	letter-spacing: 1.5px;
+	font-weight: normal;
+}
+.some_products .our_products .row3{
+	overflow: auto;
+}
+.some_products .our_products .row3 .column .row .column{
+	width: 251px;
+	height: 405px;
+	float: left;
+	border: 1px solid #eee;
+	margin: 15px 45px;
+	box-sizing: border-box;
+	padding: 12px;
+	transition: 0.3s;
+	cursor: pointer;
+	position: relative;
+}
+.some_products .our_products .row3 .column .row .column:hover{
+	transition: 0.5s;
+	transform: scale(1.01);
+	box-shadow: 0px 0px 21px 10px #eee;
+}
+.some_products .our_products .row3 .column .row .column .product_row1{
+	margin-bottom: 28px;
+}
+.some_products .our_products .row3 .column .row .column .product_row1 img{
+	width: 100%;
+
+}
+.some_products .our_products .row3 .column .row .column .to_cart{
+	width: 100%;
+	position: absolute;
+	margin: 0 auto;
+	text-align: center;
+	background-color: #eeec;
+	padding: 8px;
+	left: 0px;
+	bottom: 0px;
+	z-index: 1;
+	display: none;
+	box-sizing: border-box;
+	transition: 0.8s;
+}
+.some_products .our_products .row3 .column .row .column .to_cart i{
+	color: black;
+	margin:0  25px;
+	transition: 0.4s;
+}
+.some_products .our_products .row3 .column .row .column .to_cart a:first-child:hover i{
+	color: #04b504;
+	transition: 0.4s;
+}
+.some_products .our_products .row3 .column .row .column .to_cart a:nth-child(2):hover i{
+	color: #da0000;
+	transition: 0.4s;
+}
+.some_products .our_products .row3 .column .row .column .to_cart a:last-child:hover i{
+	color: #0566ca;
+	transition: 0.4s;
+}
+.some_products .our_products .row3 .column .row .column:hover .to_cart{
+	transition: 0.9s;
+	display: block;
+}
+.some_products .our_products .row3 .column .row .column .product_row2{
+	margin-bottom: 20px;
+}
+.some_products .our_products .row3 .column .row .column .product_row2 .shop_sub_row{
+	text-align: center;
+	position: relative;
+	margin-top: 5px;
+	font-family: "Montserrat";
+}
+.some_products .our_products .row3 .column .row .column .product_row2 .shop_sub_row h4{
+	font-size: 14px;
+	text-transform: uppercase;
+}
+.some_products .our_products .row3 .column .row .column .product_row2 .shop_sub_row h4:hover{
+	color: #0cb614;
+	transition: 0.2s;
+}
+.some_products .our_products .row3 .column .row .column .product_row2 .shop_sub_row ul li{
+	list-style: none;
+	display: inline;
+	margin-left: 3px;
+	color: #ff9900;
+	cursor: pointer;
+	transition: 0.5s;
+}
+.some_products .our_products .row3 .column .row .column .product_row2 .shop_sub_row .full_star{
+	list-style: none;
+	display: inline;
+	color: #ff9900;
+	cursor: pointer;
+	position: absolute;
+	top: 0;
+	left: 50px;
+	transition: 0.5s;
+}
+.some_products .our_products .row3 .column .row .column .product_row2 .shop_sub_row .full_star li{
+	display: none;
+	margin-left: 3px;
+	transition: 0.5s;
+}
+
+.some_products .our_products .row4{
+	overflow: auto;
+	margin: 50px 0;
+}
+.some_products .our_products .row4 .pagination{
+	width: 1200px;
+	padding: 20px 0;
+	margin: 0 auto;
+	border: 1px solid #eee;
+}
+.some_products .our_products .row4 .pagination .pagination_content{
+	text-align: center;
+	font-family: "Montserrat";
+}
+.some_products .our_products .row4 .pagination .pagination_content ul li{
+	display: inline;
+	font-size: 12px;
+	margin-left: 20px;
+	padding: 8px 12px;
+	box-sizing: border-box;
+	border: 1px solid #eee;
+	border-radius: 5px;
+	cursor: pointer;
+	background-color: #eee;
+	transition: 0.3s;
+}
+.some_products .our_products .row4 .pagination .pagination_content ul li.show{
+	background-color: #1eac1e;
+	font-weight: 600;
+	transition: all 0.3s;
+	color: #fff;
+}
+.some_products .our_products .row4 .pagination .pagination_content ul li:hover{
+	background-color: #1eac1e;
+	font-weight: 600;
+	transition: all 0.3s;
+	color: #fff;
+}
+
+/*fixed shoping Cart*/
+.shoping_cart{
+	position: fixed;
+	bottom: 30px;
+	right: 10px;
+}
+.shoping_cart .shoping_cart_icon a button{
+	width: 40px;
+	height: 40px;
+	padding: 8px;
+	border: none;
+	border-radius: 20px;
+	background-color:#ff9900;
+	opacity: 70%;
+	outline: none;
+	cursor: pointer;
+	transition: 0.5s;
+	box-shadow: 0px 0px 14px 8px #d2cece;
+}
+.shoping_cart .shoping_cart_icon a button i{
+	font-size: 16px;
+}
+.shoping_cart .shoping_cart_icon a button:hover{
+	background-color: #ff9900;
+	transition: 0.3s;
+}

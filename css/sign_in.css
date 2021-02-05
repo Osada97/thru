@@ -1,0 +1,83 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+.login_section{
+	overflow: auto;
+	margin-bottom: 50px;
+}
+.login_png{
+	width: 800px;
+	overflow: hidden;
+	margin-right: 50px;
+	float: left;
+
+}
+.login_png img{
+	width: 100%;
+}
+.login_form{
+	width: 669px;
+	float: left;
+	overflow: auto;
+	margin-top: 120px;
+	padding-left: 80px;
+	padding-right: 80px;
+	box-sizing: border-box;
+	font-family: "Montserrat";
+}
+.login_form .sign_in_header{
+	text-align: center;
+	margin-bottom: 50px;
+	font-size: 25px;
+}
+.login_form .error{
+	margin-bottom: 20px;
+}
+.login_form .error p{
+	font-size: 14px;
+	color: #ff0000;
+	text-indent: 20px;
+}
+.login_form form p label{
+	display: block;
+	font-size: 17px;
+	margin-bottom: 20px;
+
+}
+.login_form form p input{
+	outline: none;
+	width: 100%;
+	padding: 8px;
+	box-sizing: border-box;
+	margin-bottom: 15px;
+	border-radius: 5px;
+	border: 1px solid #a49c9c;
+}
+.login_form form p input:hover{
+	border-color: #00ce00;
+}
+.login_form form p input:focus{
+	border-color: #00ce00;
+}
+.login_form form p input[type="submit"]{
+	width: 40%;
+	font-weight: 600;
+	border-radius: 20px;
+	cursor: pointer;
+	background-color: #52ad0d;
+	color: #fff;
+	transition: 0.3s;
+	float: left;
+}
+.login_form form p input[type="submit"]:hover{
+	background-color: #42880c;
+	transition: 0.5s ease-in 0s;
+}
+.login_form form p:last-child{
+	float: right;
+	line-height: 35px;
+	font-size: 13px;
+}
+.login_form form p a{
+	text-decoration: none;
+	font-weight: 600;
+	color: #52ad0d;
+}

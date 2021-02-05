@@ -1,0 +1,89 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+.signup_section{
+	margin-bottom: 50px;
+	overflow: auto;
+}
+.signup_section .signup_png{
+	width: 800px;
+	overflow: hidden;
+	float: left;
+	margin-right: 50px;
+}
+.signup_section .signup_png img{
+	width: 100%;
+}
+.signup_section .signup_form{
+	width: 669px;
+	float: left;
+	padding:28px 50px 0px 50px; 
+	box-sizing: border-box;
+	font-family: "Montserrat";
+}
+.signup_section .signup_form .sign_up_header{
+	margin-bottom: 30px;
+	text-align: center;
+	font-size: 20px;
+}
+.signup_section .error{
+	margin-bottom: 20px;
+}
+.signup_section .error p{
+	text-indent: 20px;
+	font-size: 14px;
+	color: red;
+}
+.signup_section .signup_form form p:first-child,form p:nth-child(5){
+	margin-right: 18px; 
+}
+.signup_section .signup_form form p:first-child,form p:nth-child(2){
+	display: inline-block;
+	width: 48%;
+}
+.signup_section .signup_form form p:nth-child(5),form p:nth-child(6){
+	display: inline-block;
+	width: 48%;
+}
+.signup_section .signup_form form p label{
+	display: block;
+	margin-bottom: 15px;
+	font-size: 17px;
+}
+.signup_section .signup_form form p input{
+	width: 100%;
+	box-sizing: border-box;
+	padding: 6px;
+	margin-bottom: 15px;
+	border-radius: 5px;
+	border: 1px solid #a49c9c;
+	outline: none;
+}
+.signup_section .signup_form form p input[type="submit"]{
+	width: 256px;
+	float: left;
+	background-color: #52ad0d;
+	border-radius: 20px;
+	color: #fff;
+	font-weight: 600;
+	cursor: pointer;
+	transition: 0.3s;
+}
+.signup_section .signup_form form p input:hover{
+	border-color: #00ce00;
+}
+.signup_section .signup_form form p input:focus{
+	border-color: #00ce00;
+}
+.signup_section .signup_form form p input[type="submit"]:hover{
+	background-color: #42880c;
+	transition: 0.5s ease-in 0s;
+}
+.signup_section .signup_form form p:last-child{
+	font-size: 13px;
+	float: right;
+	line-height: 30px;
+}
+.signup_section .signup_form form p a{
+	font-weight: 600;
+	color: #52ad0d;
+	text-decoration: none;
+}
